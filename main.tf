@@ -9,6 +9,3 @@ module "network"  {
   private_subnets_cidr = each.value.private_subnets_cidr
   availability_zones = each.value.availability_zones
 }
-provider "aws" {
-  region = "us-east-1"
-}
