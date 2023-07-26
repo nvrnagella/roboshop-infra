@@ -6,5 +6,5 @@ module "vpc"  {
   for_each              = var.vpc
   cidr_block            = each.value.cidr_block
   subnets               = each.value.subnets
-  availability_zones    = each.value.availability_zone
+  availability_zone    = each.value.availability_zone
 }
