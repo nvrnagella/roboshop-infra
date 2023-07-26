@@ -1,4 +1,4 @@
-module "vpc"  {
+module "vpc" {
   source                = "github.com/nvrnagella/tf-module-vpc"
   env                   = var.env
   default_vpc_id        = var.default_vpc_id
